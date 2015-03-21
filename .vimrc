@@ -6,6 +6,6 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-let mapleader=","
+let mapleader="§"
 map <Leader>n :NERDTreeToggle<CR>
 map <Leader>cd :lcd %:p:h<CR>
