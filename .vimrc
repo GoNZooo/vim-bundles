@@ -20,7 +20,17 @@ set number
 let $PYTHONPATH='/usr/lib/python3.4/site-packages' 
 set laststatus=2
 
+" Make it so that we always go to the last position we were at
+" in the buffer when we were last in it.
+if has("autocmd")
+  autocmd BufReadPost *
+    \ if line("'\"") > 1 && line("'\"") <= line("$") |
+    \   exe "normal! g`\"" |
+    \ endif
+  endif
+
 " Keymaps
 let mapleader="§"
 map <Leader>n :NERDTreeToggle<CR>
 map <Leader>cd :lcd %:p:h<CR>
+
