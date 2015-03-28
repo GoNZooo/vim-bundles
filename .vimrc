@@ -36,12 +36,11 @@ let mapleader="§"
 "
 " %% expands to current path, all thanks to Gary Bernhardt
 " See: http://vimcasts.org/episodes/the-edit-command/
-cnoremap %% <C-R>=fnameescape(expand('%:h'))."/"<CR>
+cnoremap %% <C-R>=fnameescape(expand('%:p:h'))."/"<CR>
 " %rc expands to vimrc
 cnoremap %rc ~/code/vim/dotvim/.vimrc
 
-map <Leader>n :NERDTreeToggle<CR>
-map <Leader>cd :lcd %%<CR>
+map <Leader>cd :lcd %:p:h<CR>
 
 " Useful bindings for opening new files
 " Current window
