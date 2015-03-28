@@ -1,11 +1,12 @@
 " Set default encoding to utf-8
 set encoding=utf-8
 
-" Set colorscheme to solarized
-colorscheme jellybeans
-
 " Start pathogen
 execute pathogen#infect()
+
+set t_Co=256
+set background=dark
+colorscheme gonzcolors
 
 " Syntax highlighting on
 syntax on
@@ -28,6 +29,11 @@ if has("autocmd")
     \   exe "normal! g`\"" |
     \ endif
   endif
+
+" Reload .vimrc immediately after writing
+if has("autocmd")
+	autocmd BufWritePost .vimrc source $MYVIMRC
+endif
 
 " Keymaps
 let mapleader="§"
