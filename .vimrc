@@ -21,6 +21,7 @@ syntax on
 " in cyan (color 14)
 set hlsearch
 highlight Search ctermbg=14
+noremap <F4> :set hlsearch! hlsearch?<CR>
 
 " Set loading of plugin files and indent files on 
 filetype plugin indent on
