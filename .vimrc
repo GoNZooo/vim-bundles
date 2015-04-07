@@ -17,6 +17,11 @@ colorscheme gonzcolors
 " Syntax highlighting on
 syntax on
 
+" Set search highlighting to all matches
+" in cyan (color 14)
+set hlsearch
+highlight Search ctermbg=14
+
 " Set loading of plugin files and indent files on 
 filetype plugin indent on
 
