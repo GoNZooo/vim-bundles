@@ -1,6 +1,9 @@
 " Set default encoding to utf-8
 set encoding=utf-8
 
+" Disable swap files
+set noswapfile
+
 " Tab sizes. I can't stand tabsizes of 8 in the end
 set tabstop=4
 set softtabstop=4
@@ -45,6 +48,10 @@ if has("autocmd")
 " Reload .vimrc immediately after writing
 if has("autocmd")
 	autocmd BufWritePost .vimrc source $MYVIMRC
+endif
+
+if has("autocmd")
+    autocmd FileType racket set tabstop=2|set shiftwidth=2|set softtabstop=2|set expandtab
 endif
 
 " Keymaps
