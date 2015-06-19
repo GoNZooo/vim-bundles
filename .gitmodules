@@ -28,3 +28,6 @@
 [submodule "vim-elixir"]
 	path = vim-elixir
 	url = http://github.com/elixir-lang/vim-elixir
+[submodule "guile-and-r6rs-lispwords-by-tob_brandt"]
+	path = guile-and-r6rs-lispwords-by-tob_brandt
+	url = https://github.com/TobBrandt/vim-scripts
