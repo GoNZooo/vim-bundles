@@ -31,3 +31,9 @@
 [submodule "guile-and-r6rs-lispwords-by-tob_brandt"]
 	path = guile-and-r6rs-lispwords-by-tob_brandt
 	url = https://github.com/TobBrandt/vim-scripts
+[submodule "seti.vim"]
+	path = seti.vim
+	url = https://github.com/trusktr/seti.vim
+[submodule "vim-material-theme"]
+	path = vim-material-theme
+	url = https://github.com/jdkanani/vim-material-theme
