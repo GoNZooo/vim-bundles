@@ -37,3 +37,6 @@
 [submodule "vim-material-theme"]
 	path = vim-material-theme
 	url = https://github.com/jdkanani/vim-material-theme
+[submodule "vim-markdown"]
+	path = vim-markdown
+	url = https://github.com/tpope/vim-markdown
