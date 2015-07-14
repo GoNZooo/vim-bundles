@@ -15,22 +15,33 @@ execute pathogen#infect()
 
 set t_Co=256
 set background=dark
-colorscheme gonzcolors
+colorscheme seti
 
 " Syntax highlighting on
 syntax on
 
 " Set search highlighting to all matches
-" in cyan (color 14)
+" in gray (color 8)
 set hlsearch
-highlight Search ctermbg=14
+highlight Search ctermbg=8
 noremap <F4> :set hlsearch! hlsearch?<CR>
+
+" Set colorcolumn 81
+set colorcolumn=81
 
 " Set loading of plugin files and indent files on 
 filetype plugin indent on
 
 " Show line numbers
 set number
+" Make line numbering relative to current line
+set relativenumber
+
+" Load rainbow parentheses
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 
 " Set the python path to be visible for powerline, the enable powerline
 let $PYTHONPATH='/usr/lib/python3.4/site-packages' 
