@@ -40,6 +40,3 @@
 [submodule "vim-markdown"]
 	path = vim-markdown
 	url = https://github.com/tpope/vim-markdown
-[submodule "rainbow_parentheses.vim"]
-	path = rainbow_parentheses.vim
-	url = https://github.com/kien/rainbow_parentheses.vim
