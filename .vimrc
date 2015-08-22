@@ -15,7 +15,7 @@ execute pathogen#infect()
 
 set t_Co=256
 set background=dark
-colorscheme seti
+colorscheme skywalker
 
 " Syntax highlighting on
 syntax on
