@@ -43,3 +43,6 @@
 [submodule "rainbow_parentheses.vim"]
 	path = rainbow_parentheses.vim
 	url = https://github.com/eapache/rainbow_parentheses.vim
+[submodule "skywalker"]
+	path = skywalker
+	url = https://github.com/emileswarts/skywalker
