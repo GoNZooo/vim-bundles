@@ -24,6 +24,7 @@ syntax on
 " in gray (color 8)
 set hlsearch
 highlight Search ctermbg=8
+highlight MatchParen ctermbg=2
 noremap <F4> :set hlsearch! hlsearch?<CR>
 
 " Set colorcolumn 81
