@@ -46,3 +46,6 @@
 [submodule "skywalker"]
 	path = skywalker
 	url = https://github.com/emileswarts/skywalker
+[submodule "vim-perl"]
+	path = vim-perl
+	url = https://github.com/vim-perl/vim-perl
