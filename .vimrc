@@ -45,7 +45,7 @@ au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
 " Set the python path to be visible for powerline, the enable powerline
-let $PYTHONPATH='/usr/lib/python3.4/site-packages' 
+let $PYTHONPATH='/usr/lib/python3.5/site-packages' 
 set laststatus=2
 
 " Make it so that we always go to the last position we were at
