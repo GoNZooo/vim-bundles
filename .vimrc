@@ -68,6 +68,7 @@ endif
 
 " Keymaps
 let mapleader="§"
+let maplocalleader="\\"
 
 " Expansions
 "
