@@ -49,3 +49,18 @@
 [submodule "vim-perl"]
 	path = vim-perl
 	url = https://github.com/vim-perl/vim-perl
+[submodule "vim-orgmode"]
+	path = vim-orgmode
+	url = https://github.com/jceb/vim-orgmode
+[submodule "utl.vim"]
+	path = utl.vim
+	url = https://github.com/vim-scripts/utl.vim
+[submodule "vim-speeddating"]
+	path = vim-speeddating
+	url = https://github.com/tpope/vim-speeddating
+[submodule "calendar.vim"]
+	path = calendar.vim
+	url = https://github.com/itchyny/calendar.vim
+[submodule "SyntaxRange"]
+	path = SyntaxRange
+	url = https://github.com/vim-scripts/SyntaxRange
