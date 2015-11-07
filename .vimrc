@@ -89,3 +89,7 @@ map <Leader>et :tabe %%
 map <Leader>ev :vsp %%
 " New window from horizontal split
 map <Leader>es :sp %%
+
+" vim-orgmode settings
+let g:org_agenda_files = ['~/todo/*.org']
+let g:org_todo_keywords = ['TODO', 'WAITING', '|', 'DONE', 'ABANDONED']
