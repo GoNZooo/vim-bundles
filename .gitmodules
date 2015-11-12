@@ -64,3 +64,6 @@
 [submodule "SyntaxRange"]
 	path = SyntaxRange
 	url = https://github.com/vim-scripts/SyntaxRange
+[submodule "vim-lambdify"]
+	path = vim-lambdify
+	url = https://github.com/GoNZooo/vim-lambdify
