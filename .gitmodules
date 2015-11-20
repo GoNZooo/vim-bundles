@@ -67,3 +67,6 @@
 [submodule "vim-lambdify"]
 	path = vim-lambdify
 	url = https://github.com/GoNZooo/vim-lambdify
+[submodule "vim-mix"]
+	path = vim-mix
+	url = https://github.com/mattreduce/vim-mix
