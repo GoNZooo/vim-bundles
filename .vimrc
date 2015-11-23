@@ -13,12 +13,13 @@ set expandtab
 " Start pathogen
 execute pathogen#infect()
 
-set t_Co=256
-set background=dark
-colorscheme skywalker
-
 " Syntax highlighting on
-syntax on
+syntax enable
+
+"set t_Co=256
+set background=dark
+colorscheme solarized
+
 
 " Set search highlighting to all matches
 " in gray (color 8)
