@@ -33,6 +33,7 @@ set colorcolumn=81
 
 " Set loading of plugin files and indent files on 
 filetype plugin indent on
+set omnifunc=syntaxcomplete#Complete
 
 " Show line numbers
 set number
