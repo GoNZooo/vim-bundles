@@ -79,3 +79,9 @@
 [submodule "ctrlp.vim"]
 	path = ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "setcolors"]
+	path = setcolors
+	url = https://github.com/felixhummel/setcolors.vim.git
+[submodule "ack.vim"]
+	path = ack.vim
+	url = https://github.com/mileszs/ack.vim
